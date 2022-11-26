@@ -1,0 +1,139 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'Cabin', sans-serif;
+}
+nav{
+    position: fixed;
+    background-color: rgb(15,25,35);
+    width: 100%;
+    height: 80px;
+    z-index: 9;
+}
+.nav-bar {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.logo {
+    width: auto;
+    height: 50px;
+    display: inline-block;
+    position: absolute;
+    left: 190px;
+    top: 8px;
+}
+.nav{
+    display: inline-block;
+    position: absolute;
+    left: 740px;
+    top: 29px;
+
+}
+.nav li {
+    display: inline-block;
+    padding: 0 12px;
+}
+.nav a{
+    color:#ffff;
+    font-size: 20px;
+    padding: 10px 0px;
+
+    
+}
+.socials{
+    position: absolute;
+    left: 1400px;
+    top: 23px;
+}
+
+.socials li{
+    display: inline-block;
+}
+.socials li a{
+    color: aliceblue;
+    font-size: 27px;
+    margin: 0 5px;
+}
+
+.introduction{
+    position: relative;
+    background-image: url(./image/bg-picture.jpg);
+    background-size:cover;
+    height: 80vh;
+    background-position: center;
+}
+.overlay{
+    height: 100vh;
+    background-color:rgba(255,255,255,0.75) ;
+}
+.opening{
+    position: absolute;
+    width: 550px;
+    height: 300px;
+    z-index: 5;
+    bottom: 260px;
+    left: 920px;
+}
+.opening h1{
+    
+    color:rgb(15,25,35);
+    text-align: center;
+    font-size: 40px;
+}
+.opening p{
+    font-size: 20px;
+    color:rgb(15,25,35);
+    text-align: center;
+    margin-top: 60px;
+}
+.register{
+    position: absolute;
+    width: 360px;
+    height: 520px;
+    background-color: #fff;
+    bottom: 140px;
+    padding: 30px;
+    box-shadow: -1px 9px 19px 0px rgba(0,0,0,0.7);
+    -webkit-box-shadow: -1px 9px 19px 0px rgba(0,0,0,0.7);
+    -moz-box-shadow: -1px 9px 19px 0px rgba(0,0,0,0.7);
+    left: 380px;
+    border-radius: 10px;
+
+
+}
+.register h2{
+    text-align: center;
+    font-size: 30px;
+}
+.register input{
+    padding: 8px 70px;
+    margin: 30px 0px 0px 4px;
+    border-style: none;
+    border-bottom: solid 1px silver ;
+}
+.register input:focus{
+    outline: none;
+    border-color: rgb(250,200,25);
+}
+.register button{
+    text-align: center;
+    padding: 15px 40px;
+    margin: 36px 0px 0px 58px;
+    background-color: rgb(250, 200, 25);
+    border-radius: 50px;
+    border-color: rgb(250,200,25);
+    font-size: 20px;
+    color: #fff;
+    -webkit-box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+    -moz-box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+    box-shadow: 0 10px 20px rgb(0 0 0 / 19%), 0 6px 6px rgb(0 0 0 / 23%);
+}
+.register button:hover{
+ background-color: rgb(206, 166, 23);
+ border-color: rgb(206, 166, 23) ;
+}
